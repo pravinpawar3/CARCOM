@@ -25,12 +25,18 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.project.carcom.R;
 
+/**
+ *  MapsActivity class handle map display, zoom-in and location of parked car in google map.
+ */
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
 
     private Marker marker;
 
+    /**
+     * This method focus map camera at current latitude and longitude.
+     */
     void focus() {
         float zoomLevel = 10.0f;
         DatabaseReference myRef = FirebaseDatabase.getInstance().getReference("Carcom/prav");

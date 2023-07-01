@@ -19,6 +19,9 @@ import com.project.carcom.core.Finger_Auth;
 import com.project.carcom.R;
 import com.project.carcom.databinding.FragmentHomeBinding;
 
+/**
+ * This class handles lock and unlock car options of application.
+ */
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;

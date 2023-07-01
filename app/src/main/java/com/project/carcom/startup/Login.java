@@ -18,8 +18,11 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.project.carcom.R;
 import com.project.carcom.home.MainActivity;
 
+/**
+ * This class handles Login page activities.
+ */
 public class Login extends AppCompatActivity {
-    private EditText emailId, password_;
+    private EditText emailId, password;
     private Button auth;
 
     @Override
@@ -27,15 +30,15 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         emailId = (EditText) findViewById(R.id.email);
-        password_ = (EditText) findViewById(R.id.password);
+        password = (EditText) findViewById(R.id.password);
         auth = (Button) findViewById(R.id.auth);
         auth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String email_Id = emailId.getText().toString().trim();
-                String password = password_.getText().toString().trim();
-                if (!TextUtils.isEmpty(email_Id) && !TextUtils.isEmpty(password)) {
-                    FirebaseAuth.getInstance().signInWithEmailAndPassword(email_Id, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                String pwd = password.getText().toString().trim();
+                if (!TextUtils.isEmpty(email_Id) && !TextUtils.isEmpty(pwd)) {
+                    FirebaseAuth.getInstance().signInWithEmailAndPassword(email_Id, pwd).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {

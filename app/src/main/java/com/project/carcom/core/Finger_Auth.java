@@ -33,6 +33,9 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
+/**
+ * This class handle fingerprint authentication to unlock car.
+ */
 public class Finger_Auth extends AppCompatActivity {
 
     private KeyStore keyStore;

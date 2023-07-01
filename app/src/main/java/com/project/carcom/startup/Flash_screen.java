@@ -8,6 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.project.carcom.R;
 
+
+/**
+ *  This class handles Flash_screen displayed at start of application.
+ */
 public class Flash_screen extends AppCompatActivity {
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 3000;

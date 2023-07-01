@@ -26,6 +26,9 @@ import com.project.carcom.startup.Login;
 import com.project.carcom.R;
 import com.project.carcom.databinding.ActivityMainBinding;
 
+/**
+ * This class handles main page activities of application.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;

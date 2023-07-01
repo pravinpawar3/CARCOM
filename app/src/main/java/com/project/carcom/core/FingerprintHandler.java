@@ -20,6 +20,9 @@ import com.project.carcom.R;
 import com.project.carcom.park.MapsActivity;
 
 
+/**
+ * This class is helper class for fingerprint authentication.
+ */
 @TargetApi(Build.VERSION_CODES.M)
 //@RequiresApi(api = Build.VERSION_CODES.M)
 class FingerprintHandler extends FingerprintManager.AuthenticationCallback {

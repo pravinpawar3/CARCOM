@@ -18,6 +18,9 @@ import com.ncorti.slidetoact.SlideToActView;
 import com.project.carcom.R;
 import com.project.carcom.home.MainActivity;
 
+/**
+ * This class handles Emergency alert activities of application.
+ */
 public class Emergency extends AppCompatActivity {
     private RelativeLayout unlockView;
 

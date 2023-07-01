@@ -15,6 +15,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.project.carcom.R;
 import com.project.carcom.databinding.FragmentCarParkBinding;
 
+/**
+ *  CarParkFragment class provides options related to parked car.
+ */
 public class CarParkFragment extends Fragment {
 
     private FragmentCarParkBinding binding;
