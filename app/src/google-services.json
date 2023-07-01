@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1033792809902",
+    "project_id": "carcom-3fd1d",
+    "storage_bucket": "carcom-3fd1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033792809902:android:d62ba5e565fe5adef3363f",
+        "android_client_info": {
+          "package_name": "com.project.carcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033792809902-ovsra73jju2jkvdrjufm3h0jlt2i2bir.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVs8CsRsXFa_C0ZjOBTOPAAhx8mG1yH0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033792809902-ovsra73jju2jkvdrjufm3h0jlt2i2bir.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

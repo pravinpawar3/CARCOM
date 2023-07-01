@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.carcom.core.Emergency">
+
+    <RelativeLayout
+        android:id="@+id/unlockView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/unlock_bg_color">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12"
+            android:textAlignment="center"
+            android:textSize="60sp"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="160sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginBottom="100sp" />
+
+        <!-- Add your unlock view elements, such as image, text, etc. -->
+        <com.ncorti.slidetoact.SlideToActView
+            android:id="@+id/slide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="Example" />
+    </RelativeLayout>
+
+    <!-- Add other UI elements -->
+
+</RelativeLayout>
